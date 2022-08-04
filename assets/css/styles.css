@@ -164,6 +164,11 @@ img{
   border-radius: 20px; 
   
 }
+#map{
+  border-radius: 15px;
+  width:60%;
+  height:80vh;
+} 
 
 
 footer{
@@ -222,6 +227,13 @@ footer{
 .map__names {
   justify-items: center;
   align-items: center;
+}
+
+.map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
