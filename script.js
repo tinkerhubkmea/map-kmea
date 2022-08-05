@@ -1,3 +1,7 @@
+alert("DISCLAIMER\n"+
+"This webpage contain a map of KMEA engineering college integrated with 2D block view and details of stalls developed by IEDC KMEA\n"+
+"This product is developed and owned by TinkerHub KMEA and EDC KMEA");
+
 let mapOptions = {
     center:[10.05375,76.37957],
     zoom:110
