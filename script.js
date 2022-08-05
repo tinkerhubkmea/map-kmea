@@ -28,7 +28,7 @@ window.location = (this.url);
 let markerMtlab=new L.Marker([10.05451,76.37913]);
 markerMtlab.addTo(map);
 markerMtlab.addTo(map);
-markerMtlab.url = 'mtlab.html'
+markerMtlab.url = 'https://www.notion.so/Heat-engine-workshop-7633dcf162664e1a8d41ee3a640fb862'
 
 markerMtlab.on('click', function(){
 window.location = (this.url);
@@ -37,7 +37,7 @@ window.location = (this.url);
 let markerFmlab=new L.Marker([10.054160685588075, 76.37900794795912]);
 markerFmlab.addTo(map);
 markerFmlab.addTo(map);
-markerFmlab.url = 'eelab.html'
+markerFmlab.url = 'https://www.notion.so/Electrical-workshop-00a13cdb82444ad19ad2560a57e1a62a'
 
 markerFmlab.on('click', function(){
 window.location = (this.url);
