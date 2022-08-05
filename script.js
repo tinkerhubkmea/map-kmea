@@ -14,7 +14,7 @@ map.addLayer(layer);
 
 let markerCivil=new L.Marker([10.05382,76.37870]);
 markerCivil.addTo(map);
-markerCivil.url = 'http://www.google.com'
+markerCivil.url = 'civilblock.html'
 
 markerCivil.on('click', function(){
 window.location = (this.url);

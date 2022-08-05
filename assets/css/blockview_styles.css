@@ -1,0 +1,145 @@
+*{
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+body {
+  
+    background-color: #fde7f9;
+    background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
+}
+  
+  
+h2{
+    color: navy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 0.5px 1px #343F4F;
+}
+  
+  
+a {
+    text-decoration: none;
+    color: black;
+}
+.section {
+    padding:0;
+    padding-bottom:0;
+  }
+  
+  
+  .bd-grid {
+    max-width: 1024px;
+    display: grid;
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+  
+  
+  
+  /*Active menu*/
+  .active::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: var(--first-color);
+  }
+  
+  
+  .show {
+    right: 0;
+  }
+  
+  .home {
+    position: relative;
+    display: block;
+  }
+  
+  .home__data {
+    align-self: center;
+    
+  }
+  
+  .home__title {
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    text-shadow:2px 0.1px  #343F4F;
+    
+    
+  }
+  
+  .home__title-color {
+    color: white
+  }
+
+  p1{
+    text-align: center;
+    color:black;
+    margin: 5px;
+    font-family:'Franklin Gothic Medium';
+  }
+  
+  h{
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+    
+  }
+  p{
+    color:grey;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  strong1{
+    font-weight:bold;
+    font-size: 15px;
+    font-style: normal;
+}
+img{
+    border-radius: 5px;
+}
+.map__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  }
+  
+  .map__names {
+    justify-items: center;
+    align-items: center;
+  }
+  .logo{
+    display:inline-flexbox;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  
+  }
+  footer{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(203, 220, 235);
+    padding: 0;
+    display: block;
+    clear: both;
+    bottom: 0;
+  }
+  
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    
+  }  
+  
