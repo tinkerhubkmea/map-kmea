@@ -1,3 +1,7 @@
+alert("DISCLAIMER\n"+
+"This webpage contain a map of KMEA engineering college integrated with 2D block view and details of stalls developed by IEDC KMEA\n"+
+"This product is developed and owned by TinkerHub KMEA and EDC KMEA");
+
 let mapOptions = {
     center:[10.05375,76.37957],
     zoom:110
@@ -24,16 +28,16 @@ window.location = (this.url);
 let markerMtlab=new L.Marker([10.05451,76.37913]);
 markerMtlab.addTo(map);
 markerMtlab.addTo(map);
-markerMtlab.url = 'http://www.google.com'
+markerMtlab.url = 'mtlab.html'
 
 markerMtlab.on('click', function(){
 window.location = (this.url);
 });
 
-let markerFmlab=new L.Marker([10.05472,76.37949]);
+let markerFmlab=new L.Marker([10.054160685588075, 76.37900794795912]);
 markerFmlab.addTo(map);
 markerFmlab.addTo(map);
-markerFmlab.url = 'http://www.google.com'
+markerFmlab.url = 'eelab.html'
 
 markerFmlab.on('click', function(){
 window.location = (this.url);
