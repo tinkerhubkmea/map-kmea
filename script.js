@@ -28,16 +28,16 @@ window.location = (this.url);
 let markerMtlab=new L.Marker([10.05451,76.37913]);
 markerMtlab.addTo(map);
 markerMtlab.addTo(map);
-markerMtlab.url = 'http://www.google.com'
+markerMtlab.url = 'mtlab.html'
 
 markerMtlab.on('click', function(){
 window.location = (this.url);
 });
 
-let markerFmlab=new L.Marker([10.05472,76.37949]);
+let markerFmlab=new L.Marker([10.054160685588075, 76.37900794795912]);
 markerFmlab.addTo(map);
 markerFmlab.addTo(map);
-markerFmlab.url = 'http://www.google.com'
+markerFmlab.url = 'eelab.html'
 
 markerFmlab.on('click', function(){
 window.location = (this.url);
